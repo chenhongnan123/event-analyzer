@@ -1,0 +1,64 @@
+{
+    "checkinresult" : {
+        "ERROR": -1,
+        "OK": 1,
+        "NG": 2,
+        "RECIPENOK": 3,
+        "TYPENOK": 4,
+        "MATERIALNOK": 5,
+        "BYPASS": 6,
+        "COMPLETED": 7,
+        "ORDERNOK": 8,
+        "DIFFERNTORDER": 9,
+        "SAVEDATAERROR": -1,
+        "TARGETCOUNTREACHED": 10,
+        "TESTFAILED": 11,
+        "CURRENTSTATIONNG": 12
+    },
+    "checkoutresult" : {
+        "ERROR": -1,
+        "NOTPROCESSED":0,
+        "OK": 1,
+        "SUCCESSFUL": 1,
+        "COMPLETED": 7,
+        "MISSINGDATA": 2,
+        "NG": 2,
+        "SAVEDATAERROR": -1,
+        "TESTFAILED": 11,
+        "WRONGTARGETSUBSTATION": 4
+    },
+    "subassemblyresult": {
+        "ERROR": -1,
+        "OK": 1,
+        "NG": 2,
+        "COMPLETED": 7,
+        "SUCCESSFUL": 1
+    },
+    "componentcheckresult": {
+        "DEFAULT": 0,
+        "ERROR": -1,
+        "KEEP": 1,
+        "OK": 1,
+        "NG": 2,
+        "SUCCESSFUL": 1,
+        "SAVEDATAERROR": -1,
+        "BOUND": 3,
+        "SCRAP": 3,
+        "REWORK": 4
+    },
+    "ngofflineresult": {
+        "ERROR": -1,
+        "OK": 1,
+        "MISSINGDATA": 2,
+        "ORDERNOK": 3,
+        "STATUSNOK": 4,
+        "ERRSTATION": 20
+    },
+    "reworkcheckresult": {
+        "ERROR": -1,
+        "OK": 1,
+        "MISSINGDATA": 2,
+        "ORDERNOK": 3,
+        "STATUSNOK": 4
+    }
+}

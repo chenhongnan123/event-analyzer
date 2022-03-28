@@ -1,0 +1,28 @@
+{
+  "name": "line-mes-event-analyzer",
+  "version": "4.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "linemes",
+    "line-mes",
+    "Line",
+    "MES"
+  ],
+  "author": "vbhosale@entrib.com (Vishal Bhosale)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bunyan": "^1.8.12",
+    "date-fns": "^2.13.0",
+    "events": "^3.1.0",
+    "form-data": "^3.0.0",
+    "ftp": "^0.3.10",
+    "kafka-node": "^5.0.0",
+    "querystring": "^0.2.0",
+    "socket.io-client": "^2.3.0"
+  }
+}

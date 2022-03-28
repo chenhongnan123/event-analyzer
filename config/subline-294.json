@@ -1,0 +1,99 @@
+{
+   "source": "event-analyzer-line-mes",
+   "topicname": "swx-logs",
+   "industryid": 4,
+   "loginType": "INFINITY",
+   "sublineid": "subline-294",
+   "server": {
+      "protocol": "http",
+      "host": "192.168.10.2",
+      "port": 80
+   },
+   "messerver": {
+      "protocol": "http",
+      "host": "10.90.5.32"
+   },
+   "socketio": {
+      "protocol": "http",
+      "host": "192.168.10.2",
+      "port": 10190,
+      "namespace": "linemes",
+      "eventname": "mes"
+   },
+   "serverlivetoplcsocketio": {
+      "protocol": "http",
+      "host": "192.168.10.2",
+      "port": 10191,
+      "namespace": "linemes",
+      "eventname": "mes"
+   },
+   "feedbacktoplcsocketio": {
+      "protocol": "http",
+      "host": "192.168.10.2",
+      "port": 10192,
+      "namespace": "linemes",
+      "eventname": "mes"
+   },
+   "credential": {
+      "identifier": "918928509173",
+      "password": "entrib"
+   },
+   "kafkaEdge": {
+      "port": 10089,
+      "fetchMinBytes": 1,
+      "fetchMaxBytes": 750,
+      "fromOffset": "latest",
+      "outOfRangeOffset": "earliest",
+      "autoCommit": true,
+      "autoCommitIntervalMs": 100
+   },
+   "logger": {
+      "loglevel": 50
+   },
+   "status": {
+      "running": "Running"
+   },
+   "elements": {
+      "substation": "substation",
+      "order": "order",
+      "orderproduct": "orderproduct",
+      "orderrecipe": "orderrecipe",
+      "orderroadmap": "orderroadmap",
+      "roadmapdetails": "roadmapdetails",
+      "checkin": "checkin",
+      "checkout": "checkout",
+      "component": "component",
+      "partstatus": "partstatus",
+      "rework": "rework",
+      "bomdetails": "bomdetails",
+      "bomdetailsconfig": "bomdetailsconfig",
+      "componentcheck": "componentcheck",
+      "productionimage": "productionimage",
+      "productionimageinfo": "productionimageinfo"
+   },
+   "defaults": {
+      "maxServerRetryCount": 3,
+      "maxPLCRetryCheckoutFeedbackCount": 10,
+      "maxPLCRetryCheckinFeedbackCount": 10,
+      "maxPLCRetrySubAssemblyCheckFeedbackCount": 10,
+      "maxPLCRetryComponentCheckFeedbackCount": 10,
+      "maxPLCRetryReceipeCount": 10,
+      "resetValueDealyTime": 1.5,
+      "maxPLCRetryCount": 5,
+      "retryServerTimer": 1,
+      "retryToPLCTimer": 100,
+      "retrykafkaconnection": 10,
+      "requesttimeout": 45,
+      "subassemblyID": "21",
+      "componentID": "24",
+      "batchID": "26",
+      "subprocessparameters": "17",
+      "processparameters": "18",
+      "subprocessresult": "15",
+      "normalmodestatus": 0,
+      "reworkmodestatus": 1,
+      "isPreviousDataIgnored": true,
+      "recipeparameters": "35",
+      "bomparameters": "70"
+   }
+}
